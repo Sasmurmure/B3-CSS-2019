@@ -25,3 +25,23 @@ body{
    color: #F9FFE6;
  }
 }
+
+p {
+  line-height: 01.2;
+}
+
+#section1 h1{
+  font-size: 3vh;
+  padding: 20px;
+  color: #631613;
+}
+
+#section3{
+  text-align: center;
+  font-style:oblique;
+}
+
+footer h2{
+  font-size: 2vh;
+  font-weight: bold;
+}
