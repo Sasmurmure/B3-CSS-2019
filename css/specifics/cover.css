@@ -1,0 +1,26 @@
+#section1 {
+  background-image: url("../images/section1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 80vw;
+  min-height: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#section1 h2 {
+  font-size: 4vw;
+  background-color: rgba(60, 39, 80, 0.6);
+  padding: 5vw;
+  margin: 2vw 2vw;
+}
+
+#section1 p {
+  font-size: 2vw;
+  background-color: rgba(00, 39, 80, 0.6);
+  padding: 2vw;
+  margin: 2vw 2vw;
+  text-align: center;
+}

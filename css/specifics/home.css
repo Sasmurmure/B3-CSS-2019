@@ -1,0 +1,42 @@
+.section {
+  background-color: green;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section h2 {
+  font-size: 3vw;
+  background-color: rgba(100, 39, 0, 0.6);
+  padding: 4vw;
+}
+#section_picture{
+  background-image: url('../images/gorille-large.jpg');
+}
+
+#section_object-fit{
+  background-image: url('../images/section5.jpg');
+}
+
+#section_width{
+  background-image: url('../images/section1.jpg');
+}
+
+#section_cover{
+  background-image: url('../images/orang-outan-large.jpg');
+}
+
+#section_flexbox{
+  background-image: url('../images/singes-jumeaux.jpg');
+}
+
+#section_grid{
+  background-image: url('../images/singe-ciel.jpg');
+}
+
+#section_transforms{
+  background-image: url('../images/singe-branche.jpg');
+}

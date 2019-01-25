@@ -1,0 +1,28 @@
+header nav {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+header nav ul{
+  padding: 0;
+}
+
+header nav ul li {
+  display : inline-block;
+  margin: 0px 10px;
+}
+
+footer {
+  display: flex;
+  margin-top: 10px;
+}
+
+footer img{
+  height: 300px;
+  margin-right: 10vw;
+}
+
+footer nav {
+  margin-left: 10vw;
+}
