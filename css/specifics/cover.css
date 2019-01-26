@@ -1,3 +1,13 @@
+h2 {
+  text-align: center;
+  font-size: 4vw;
+}
+
+p {
+  font-size: 2vw;
+  text-align: center;
+}
+
 #section1 {
   background-image: url("../images/section1.jpg");
   background-repeat: no-repeat;
@@ -11,16 +21,21 @@
 }
 
 #section1 h2 {
-  font-size: 4vw;
   background-color: rgba(60, 39, 80, 0.6);
   padding: 5vw;
-  margin: 2vw 2vw;
 }
 
 #section1 p {
-  font-size: 2vw;
-  background-color: rgba(00, 39, 80, 0.6);
+  background-color: rgba(00, 60, 90, 0.6);
   padding: 2vw;
-  margin: 2vw 2vw;
-  text-align: center;
+}
+
+#section2{
+  background-image: url("../images/orang-outan.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 50vw;
+  height: 60vw;
+  margin: 3vw 0vw;
 }

@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/typography.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/scaffolding.css">
+    <link rel="stylesheet" type="text/css" href="css/specifics/picture.css">
     <title></title>
   </head>
   <body>
@@ -37,6 +38,14 @@
       </nav>
     </header>
 
+    <picture>
+        <source srcset="images/large/gorille-large.jpg" media="(min-width: 1500px)">
+        <source srcset="images/medium/059m9p.jpg" media="(min-width: 800px)">
+        <img srcset="images/small/600px-Chimpanzee-Head.jpg" alt="Image responsive avec picture">
+    </picture>
+
+    <h2>Image responsive avec la balise Picture </h2>
+    <p>La balise picture en HTML permet de remplacer une image par une autre en fonction de la taille de la fenêtre du navigateur (min-width: px;).</p>
     <footer>
       <img src="images/medium/eleonore-sas.jpg" alt="photo Éléonore Sas">
       <ul>
