@@ -1,10 +1,14 @@
 #flexbox {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .flex {
-  height: 150px;
-  margin-right: 4px;
+  height: 250px;
+  margin: 4px;
+}
+
+#flex_solo{
+  order: 8;
 }
