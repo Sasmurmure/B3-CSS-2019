@@ -1,0 +1,10 @@
+#flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex {
+  height: 150px;
+  margin-right: 4px;
+}
