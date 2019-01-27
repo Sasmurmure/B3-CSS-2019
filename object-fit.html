@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/typography.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/scaffolding.css">
+    <link rel="stylesheet" type="text/css" href="css/specifics/object-fit.css">
+
     <title></title>
   </head>
   <body>
@@ -37,6 +39,18 @@
       </nav>
     </header>
 
+    <img class="strips" src="images/large/un-singe-n-a-pas-de-droits-sur-ses-selfies-cc278e-0@1x.png" alt="Singe 1">
+    <img class="strips" src="images/large/Nathalie-Baye-et-d-autres-personnalites-a-la-rescousse-des-grands-singes.jpg" alt="Singe 2">
+    <img class="strips" src="images/large/defier-son-rival-357749.jpg" alt="Singe 3">
+    <img class="strips" src="images/large/15-wildlife-gallery-prod-yourshot-288748-10950766.jpg" alt="Singe 4">
+
+    <h2>Full width image strips (jusqu'à 960 width)</h2>
+    <h2>Distributed blocks on screen (au-dessus de 960 width)</h2>
+
+    <p> Grâce aux media queries, on obtient 2 états en-dessous puis au-dessus de 960 px de large : </br> </br>1/ Des images stockées dans les bandes horizontales les unes au-dessus des autres et se réajustant en fonction de la largeur de la fenêtre (object-fit: cover)</br></br>
+2/ Puis des images stockées sous forme de blocks déterminés (700x300px), toujours avec la propriété "object-fit: cover". Ces blocks se redistibuent de façon responsive.
+    </p>
+    
     <footer>
       <img src="images/medium/eleonore-sas.jpg" alt="photo Éléonore Sas">
       <ul>
