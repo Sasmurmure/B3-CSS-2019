@@ -5,8 +5,15 @@
 }
 
 .flex {
-  height: 250px;
   margin: 4px;
+  height: 250px;
+}
+
+#flexbox p{
+  margin: 4px;
+  columns: 3;
+  line-height: 1.2em;
+  margin: 0 1em;
 }
 
 #flex_solo{

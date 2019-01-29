@@ -1,0 +1,17 @@
+* {
+  box-sizing : border-box;
+}
+
+.grid > div {
+  background-color: #7f8ca7;
+  border : 1em solid #1a1448;
+}
+
+.grid {
+  display : grid;
+  grid-template-rows : auto;
+  grid-auto-rows : auto;
+  grid-column-gap : 12px;
+  grid-row-gap : 12px;
+  /* grid-gap : 12px;*/
+}

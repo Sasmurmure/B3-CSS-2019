@@ -10,7 +10,32 @@ header nav ul{
 
 header nav ul li {
   display : inline-block;
+  position: relative;
   margin: 0px 10px;
+}
+
+header nav ul li ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:rgba(178, 34, 34, 0.7);
+  padding: 2vw;
+  margin-bottom: 1.5px;
+  line-height: 01.2;
+}
+
+header nav > ul li:hover ul{
+  display: block;
+}
+
+header nav ul li ul li {
+  display: block;
+	margin: 15px 0px;
+}
+
+.selected{
+  text-decoration: underline;
 }
 
 footer {
