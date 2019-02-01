@@ -1,18 +1,48 @@
-.home_section {
+#image_presentation {
+    background-image: url("../images/section1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 80vw;
+    min-height: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#image_presentation h1 {
+  font-size: 3vw;
+  font-weight: bolder;
+  color: white;
+  text-shadow: -2px 4px #4C1C16;
+}
+
+#total_home_section{
   display: flex;
-  background-color: green;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.home_section {
+  margin: 2vw;
+  background-color: red;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 60vh;
+  background-position: center;
+  width: 600px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .home_section h2 {
-  font-size: 3vw;
-  background-color: rgba(100, 39, 0, 0.6);
-  padding: 4vw;
+  text-align: center;
+  font-size: 40px;
+  background-color: rgba(153, 76, 13, 0.5);
+  padding: 20px;
 }
 #section_picture{
   background-image: url('../images/gorille-large.jpg');

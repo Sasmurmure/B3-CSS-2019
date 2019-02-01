@@ -9,6 +9,7 @@ p {
 #section1 {
   background-image: url("../images/section1.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   min-width: 80vw;
   min-height: 40vw;
@@ -19,12 +20,12 @@ p {
 }
 
 #section1 h2 {
-  background-color: rgba(60, 39, 80, 0.6);
+  background-color: rgba(99, 22, 19, 0.6);
   padding: 5vw;
 }
 
 #section1 p {
-  background-color: rgba(00, 60, 90, 0.6);
+  background-color: rgba(153, 76, 13, 0.6);
   padding: 2vw;
 }
 

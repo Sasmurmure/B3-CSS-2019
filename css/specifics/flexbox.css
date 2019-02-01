@@ -4,18 +4,18 @@
   justify-content: center;
 }
 
-.flex {
+.flex img {
   margin: 4px;
-  height: 250px;
+  max-width: 400px;
 }
 
-#flexbox p{
+.flex p{
+  max-width: 400px;
   margin: 4px;
   columns: 3;
   line-height: 1.2em;
-  margin: 0 1em;
 }
 
-#flex_solo{
+/*#flex_solo{
   order: 8;
-}
+}*/

@@ -13,7 +13,7 @@ body{
 
 @media screen and (min-width : 320px){
  body{
-   color: #F9F3D4;
+   color: #FFE6CE;
  }
 }
 @media screen and (min-width : 640px){
@@ -23,7 +23,7 @@ body{
 }
 @media screen and (min-width : 1024px){
  body{
-   color: #F9F3D4;
+   color: #F9F3E4;
  }
 }
 
@@ -52,17 +52,6 @@ nav:hover, a:visited, a:link, a:active {
 header nav ul {
   font-size: 20px;
 }
-
-/* #section1 h1{
-  font-size: 3vh;
-  padding: 20px;
-  color: #631613;
-}
-
-#section3{
-  text-align: center;
-  font-style:oblique;
-} */
 
 footer {
   line-height: 01.4;
