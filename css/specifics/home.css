@@ -1,18 +1,12 @@
 #image_presentation {
     display: flex;
     align-items: center;
-    justify-content: center;    background-image: url("../images/section1.jpg");
+    justify-content: center;
+    background-image: url("../images/section1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 40vw;
-}
-
-#image_presentation h1 {
-  font-size: 3vw;
-  font-weight: bolder;
-  color: white;
-  text-shadow: -2px 4px #4C1C16;
 }
 
 #total_home_section{
@@ -24,7 +18,7 @@
 
 .home_section {
   margin: 2vw;
-  background-color: red;
+  background-color: #474545;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,10 +29,9 @@
   justify-content: center;
 }
 
-.home_section h2 {
+.home_section h3 {
   text-align: center;
-  font-size: 40px;
-  background-color: rgba(153, 76, 13, 0.5);
+  background-color: rgba(50, 136, 211, 0.5);
   padding: 20px;
 }
 #section_picture{
