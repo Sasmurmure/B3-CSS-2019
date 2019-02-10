@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Site sur les singes</title>
+    <title>Don't forget css !</title>
     <meta name="description" content="165c. uniques">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/typography.css">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/specifics/picture.css">
   </head>
   <body>
-    <header>
+    <header id="main-menu">
       <nav>
         <ul>
           <li>
@@ -20,7 +20,7 @@
           <li>
             <a href="#">Responsive Images</a>
             <ul>
-              <li><a href="picture.html">Picture</a></li>
+              <li><a href="picture.html">Balise picture</a></li>
               <li><a href="object-fit.html">Object-fit</a></li>
               <li><a href="width.html">Width image</a></li>
               <li><a href="cover.html">Background cover</a></li>
@@ -38,18 +38,19 @@
       </nav>
     </header>
 
-    <picture>
-        <source srcset="images/large/gorille-large.jpg" media="(min-width: 1500px)">
-        <source srcset="images/medium/singe_blanc.jpg" media="(min-width: 800px)">
-        <img srcset="images/small/tete_chimpanze.jpg" alt="Image responsive avec picture">
+    <picture class="picture-images--total">
+        <source srcset="images/large/gorille.jpg" media="(min-width: 1500px)">
+        <source srcset="images/medium/singe-blanc.jpg" media="(min-width: 800px)">
+        <img srcset="images/small/tete-chimpanze.jpg" alt="Image responsive grace à la balise picture">
     </picture>
 
     <h2>Image responsive avec la balise Picture </h2>
-    <p>La balise picture en HTML permet de remplacer une image par une autre en fonction de la taille de la fenêtre du navigateur (min-width: px;).</p>
+    <p class="columns--texte">La balise "picture" en HTML permet de remplacer une image par une autre en fonction de la taille de la fenêtre du navigateur ("min-width: px;"). Ainsi, le navigateur charge l'image correspondant à la taille de la fenêtre. L'élément "picture" a été proposé par Bruce Lawson en 2011. <br> Néanmoins, cette technique utilisée pour adapter des contenus à plusieurs tailles d'écran (images responsives) n'est presque plus utilisée aujourd'hui. En effet, utiliser la balise picture contraint à charger plusieurs images, ce qui demande de préparer plus de données en amont et qui rend le contenu de la page plus lourd. Le temps de chargement de celle-ci est donc plus long. De plus, les images choisies ne correspondent qu'à des tailles précises et ne varient pas en même temps que les dimensions de la fenêtre. Le rendu visuel est donc assez bancal la plupart du temps car les images ne correspondent pas précisémment aux dimensions du navigateur. <br>Pour toutes ses raisons, on utilise plutôt d'autres techniques de responsive, telles que mettre la largeur de l'image à 100% de la largeur de la fenêtre du navigateur ("width: 100%;") avec une hauteur qui s'ajuste automatiquement ("height: auto;"), ou encore avec "object-fit: cover;", par exemple.</p>
+
     <footer>
       <img src="images/medium/eleonore-sas.jpg" alt="photo Éléonore Sas">
       <ul>
-        <li><h3>Me contacter</h3></li>
+        <li><h4>Me contacter</h4></li>
         <li>Eléonore Test </li>
         <li>eleonore.test@gmail.com</li>
         <li>06.00.00.00.12</li>
@@ -58,7 +59,7 @@
         <li>PARIS</li>
       </ul>
 
-      <nav>
+      <nav class="second-menu">
         <ul>
           <li>
             <a href="index.html">Home</a>
@@ -73,7 +74,7 @@
           <li>
             <a href="cover.html">Cover</a>
           </li>
-          <a href="flexbox.html">Flexbox</a>
+            <a href="flexbox.html">Flexbox</a>
           <li>
             <a href="grid.html">Grid</a>
           </li>

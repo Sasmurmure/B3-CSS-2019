@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Site sur les singes</title>
+    <title>Don't forget css !</title>
     <meta name="description" content="165c. uniques">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/typography.css">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/specifics/object-fit.css">
   </head>
   <body>
-    <header>
+    <header id="main-menu">
       <nav>
         <ul>
           <li>
@@ -20,7 +20,7 @@
           <li>
             <a href="#">Responsive Images</a>
             <ul>
-              <li><a href="picture.html">Picture</a></li>
+              <li><a href="picture.html">Balise picture</a></li>
               <li><a href="object-fit.html">Object-fit</a></li>
               <li><a href="width.html">Width image</a></li>
               <li><a href="cover.html">Background cover</a></li>
@@ -38,24 +38,28 @@
       </nav>
     </header>
 
-    <section id="object_fit">
-      <img src="images/large/singe_marron.png" alt="Singe 1">
-      <img src="images/large/singe_noir.jpg" alt="Singe 2">
-      <img src="images/large/singe_dents.jpg" alt="Singe 3">
-      <img src="images/large/singe_arbre.jpg" alt="Singe 4">
+    <section id="objectFit">
+      <img src="images/large/singe-marron.png" alt="Singe Marron">
+      <img src="images/large/singes-jumeaux.jpg" alt="Deux singes">
+      <img src="images/large/singe-dents.jpg" alt="Machoire et dents de singe">
+      <img src="images/large/singe-arbre.jpg" alt="Singe dans un arbre">
     </section>
 
-    <h2>Full width image strips (jusqu'à 960 width)</h2>
-    <h2>Distributed blocks on screen (au-dessus de 960 width)</h2>
+    <h2 class="objectFit--texte-strips">Full width image strips (jusqu'à 960 width)</h2>
+    <h2 class="objectFit--texte-blocks">Distributed blocks on screen (au-dessus de 960 width)</h2>
 
-    <p> Grâce aux media queries, on obtient 2 états en-dessous puis au-dessus de 960 px de large : </br> </br>1/ Des images stockées dans les bandes horizontales les unes au-dessus des autres et se réajustant en fonction de la largeur de la fenêtre (object-fit: cover)</br></br>
-2/ Puis des images stockées sous forme de blocks déterminés (700x300px), toujours avec la propriété "object-fit: cover". Ces blocks se redistibuent de façon responsive.
-    </p>
+    <p class="columns--texte"> La propriété "object-fit" définit comment un élément répond à la hauteur et à la largeur de sa boîte de contenu. Utilisé seul, "object-fit" permet de recadrer une image en ligne en donnant un contrôle précis sur la façon dont elle s'écrase et s'étire dans sa boîte. C'est une technique utilisée pour faire des images responsives.<br> onloadedmetadata="Ici, on utilise la valeur "cover". Ainsi, l'image remplit la hauteur et la largeur de sa boîte, en conservant globalement ses proportions, mais en recadrant au besoin l'image. L'image n'est pas déformée et correspond aux dimensions de son container tout en étant légèrement rognée. Il existe actuellement cinq autres valeurs pour la propriété "object-fit" : "fill" (faire rentrer toute l'image dans le container, peu importe les déformations infligées à l'image);  "contain" (grossir ou rétrécir proportionnellement l'image pour qu'elle corresponde à son container); "none" (l'image ignore la hauteur et la largeur du container et conserve sa taille d'origine) et "scale-down" (l'image compare la différence entre "non" et "contain" afin de trouver la taille de l'image la plus petite et concrète). </p>
+
+    <p>Ici, grâce aux Media Queries, on obtient 2 états en-dessous puis au-dessus de 960 px de large de la fenêtre du navigateur :</p>
+    <ol>
+      <li class="all--liste--contenu">1/ Des images stockées dans les bandes horizontales les unes au-dessus des autres et se réajustant en fonction de la largeur de la fenêtre (object-fit: cover)</li>
+      <li class="all--liste--contenu">2/ Puis des images stockées sous forme de blocks déterminés (700x300px), toujours avec la propriété "object-fit: cover". Ces blocks se redistibuent de façon responsive grâce à la propriété "flex-box".</li>
+    </ol>
 
     <footer>
       <img src="images/medium/eleonore-sas.jpg" alt="photo Éléonore Sas">
       <ul>
-        <li><h3>Me contacter</h3></li>
+        <li><h4>Me contacter</h4></li>
         <li>Eléonore Test </li>
         <li>eleonore.test@gmail.com</li>
         <li>06.00.00.00.12</li>
@@ -64,7 +68,7 @@
         <li>PARIS</li>
       </ul>
 
-      <nav>
+      <nav class="second-menu">
         <ul>
           <li>
             <a href="index.html">Home</a>
@@ -79,7 +83,7 @@
           <li>
             <a href="cover.html">Cover</a>
           </li>
-          <a href="flexbox.html">Flexbox</a>
+            <a href="flexbox.html">Flexbox</a>
           <li>
             <a href="grid.html">Grid</a>
           </li>

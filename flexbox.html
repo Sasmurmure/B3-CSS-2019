@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Site sur les singes</title>
+    <title>Don't forget css !</title>
     <meta name="description" content="165c. uniques">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/typography.css">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/specifics/flexbox.css">
   </head>
   <body>
-    <header>
+    <header id="main-menu">
       <nav>
         <ul>
           <li>
@@ -20,7 +20,7 @@
           <li>
             <a href="#">Responsive Images</a>
             <ul>
-              <li><a href="picture.html">Picture</a></li>
+              <li><a href="picture.html">Balise picture</a></li>
               <li><a href="object-fit.html">Object-fit</a></li>
               <li><a href="width.html">Width image</a></li>
               <li><a href="cover.html">Background cover</a></li>
@@ -55,11 +55,6 @@
         <img src="images/large/singe_arbre.jpg" alt="Singe 5">
       </div>
       <div class="flex">
-        <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-      <div class="flex">
         <img src="images/large/singe-ciel.jpg" alt="Singe 6">
       </div>
       <div class="flex">
@@ -74,42 +69,42 @@
     <p>Flexbox permet de définir des mises en page unidimensionnelles. Ici, les items sont alignés à l'horizontale (row) dans leur conteneur et s'adapte à la largeur de la fenêtre (wrap). De plus, ils sont centrés dans la page (justify-content: center).</br></br>
       Il est également possible de donner des propriétés spécifiques à un item du conteneur. Ainsi, la 8ème photo est positionnée en 4ème position dans le code HTML mais elle apparait en 8ème grâce à la propriété "order".</p>
 
-    <footer>
-      <img src="images/medium/eleonore-sas.jpg" alt="photo Éléonore Sas">
-      <ul>
-        <li><h3>Me contacter</h3></li>
-        <li>Eléonore Test </li>
-        <li>eleonore.test@gmail.com</li>
-        <li>06.00.00.00.12</li>
-        <li>53 rue du Testing </li>
-        <li> 75014 </li>
-        <li>PARIS</li>
-      </ul>
-
-      <nav>
+      <footer>
+        <img src="images/medium/eleonore-sas.jpg" alt="photo Éléonore Sas">
         <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="picture.html">Picture</a>
-          </li>
-          <li>
-            <a href="object-fit.html">Object-fit</a>
-          </li>
-          <a href="width.html">Width</a>
-          <li>
-            <a href="cover.html">Cover</a>
-          </li>
-          <a href="flexbox.html">Flexbox</a>
-          <li>
-            <a href="grid.html">Grid</a>
-          </li>
-          <li>
-            <a href="transforms.html">Transforms</a>
-          </li>
+          <li><h4>Me contacter</h4></li>
+          <li>Eléonore Test </li>
+          <li>eleonore.test@gmail.com</li>
+          <li>06.00.00.00.12</li>
+          <li>53 rue du Testing </li>
+          <li> 75014 </li>
+          <li>PARIS</li>
         </ul>
-      </nav>
-    </footer>
+
+        <nav class="second-menu">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="picture.html">Picture</a>
+            </li>
+            <li>
+              <a href="object-fit.html">Object-fit</a>
+            </li>
+            <a href="width.html">Width</a>
+            <li>
+              <a href="cover.html">Cover</a>
+            </li>
+              <a href="flexbox.html">Flexbox</a>
+            <li>
+              <a href="grid.html">Grid</a>
+            </li>
+            <li>
+              <a href="transforms.html">Transforms</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
   </body>
 </html>

@@ -1,19 +1,45 @@
-#object_fit img{
+#objectFit img{
   width: 100%;
   height: 15vh;
   object-fit: cover;
 }
 
+#objectFit img:hover{
+  filter: brightness(50%);
+}
+
+.objectFit--texte-blocks {
+  display: none;
+}
+
+.objectFit--texte-strips {
+  display: block;
+}
+
 @media only screen and (min-width: 960px) {
-  #object_fit{
+  #objectFit{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
   }
-  #object_fit img{
+  #objectFit img{
     max-width: 500px;
     height: auto;
     margin: 2vw;
     object-fit: cover;
+    border-radius: 30px;
+    object-position: center;
   }
+  #objectFit img:hover{
+    filter: brightness(50%);
+  }
+
+  .objectFit--texte-strips {
+    display: none;
+  }
+
+  .objectFit--texte-blocks {
+    display: block;
+  }
+}

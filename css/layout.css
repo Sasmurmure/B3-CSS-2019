@@ -1,27 +1,27 @@
 /*@media pour responsive*/
 body {
-  background-color: #FFF;
+  background-color: #D1E4F9;
 }
 
 
 @media screen and (min-width : 320px){
  body{
-   background-color: #EAE8E3;
+   background-color: #FFF;
  }
 }
 
 @media screen and (min-width : 640px){
  body{
-   background-color: #D9D7D7;
+   background-color: #CEF4FF;
  }
 }
 @media screen and (min-width : 800px){
  body{
-   background-color: #E0E7ED;
+   background-color: #A5C2E2;
  }
 }
 @media screen and (min-width : 1024px){
  body{
-   background-color:  #FFF;;
+   background-color:  #D1E4F9;
  }
 }

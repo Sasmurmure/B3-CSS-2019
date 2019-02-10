@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Site sur les singes</title>
+    <title>Don't forget css !</title>
     <meta name="description" content="165c. uniques">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/typography.css">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/specifics/grid.css">
   </head>
   <body>
-    <header>
+    <header id="main-menu">
       <nav>
         <ul>
           <li>
@@ -20,7 +20,7 @@
           <li>
             <a href="#">Responsive Images</a>
             <ul>
-              <li><a href="picture.html">Picture</a></li>
+              <li><a href="picture.html">Balise picture</a></li>
               <li><a href="object-fit.html">Object-fit</a></li>
               <li><a href="width.html">Width image</a></li>
               <li><a href="cover.html">Background cover</a></li>
@@ -38,21 +38,66 @@
       </nav>
     </header>
 
-    <section id="gridlayout">
+    <section class="gridLayout-item--total">
 
-      <img src="images/small/gorille.jpg" alt="gorille" id="img1">
-      <img src="images/large/orang-outan-large.jpg" alt="orang-outan" id="img2">
-      <img src="images/medium/babouin_dents.jpg" alt="chimpanze" id="img3">
-
-      <h1 class="text">Little apes</h1>
-
-
+      <div class="gridLayout-item">
+        <img src="images/medium/babouin-dents.jpg" alt="Babouin hurlant">
+        <h2>Babouin</h2>
+        <p>
+          Qualifié de petit homme des bois par les descriptions du Moyen Âge, le babouin est l'un des rares primates à mener une vie essentiellement terrestre. Comme les premiers hominidés, ses cousins, il a sans doute réussi à survivre grâce à son mode de vie très social.
+        </p>
+        <button class="gridLayout-button"><a href="https://www.larousse.fr/encyclopedie/vie-sauvage/babouin/184872" target="_blank"><strong>En savoir plus</strong></a></button>
+      </div>
+      <div class="gridLayout-item">
+        <img src="images/large/singe-branche.jpg" alt="Saïmiri">
+        <h2>Saïmiri</h2>
+        <p>
+          Les saïmiris (Saimiri) sont un genre de petits singes d'Amérique du Sud. Il en existe cinq espèces différentes, on les appelle parfois également "singes-écureuils", même si singe-écureuil désigne plutôt une espèce de saïmiri en particulier, le saïmiri commun.
+        </p>
+        <button class="gridLayout-button"><a href="https://fr.vikidia.org/wiki/Sa%C3%AFmiri" target="_blank"><strong>En savoir plus</strong></a></button>
+      </div>
+      <div class="gridLayout-item">
+        <img src="images/medium/singes-gris.jpg" alt="Singes gris ou Gibbon">
+        <h2>Gibbon</h2>
+        <p>
+          Un gibbon est un singe anthropoïde sans queue qui vit en Asie. Ce terme de zoologie désigne un primate de la famille des Hylobatidae. Le gibbon vit en groupe, dans les arbres et est de taille moyenne.
+        </p>
+        <button class="gridLayout-button"><a href="https://www.linternaute.fr/dictionnaire/fr/definition/gibbon/" target="_blank"><strong>En savoir plus</strong></a></button>
+      </div>
+      <div class="gridLayout-item">
+        <img src="images/medium/ouistiti-doigt.jpg" alt="Ouistiti">
+        <h2>Ouistiti</h2>
+        <p>
+          Parmi tous les singes, le ouistiti est l’un des plus petits et des plus domestiqués au monde. Doté d’un pelage exceptionnellement coloré, ce singe a acquis très tôt une grande popularité. Pourtant, le ouistiti demeure assez mal connu.
+        </p>
+        <button class="gridLayout-button"><a href="http://dinosoria.com/ouistiti.htm" target="_blank"><strong>En savoir plus</strong></a></button>
+      </div>
+      <div class="gridLayout-item">
+        <img src="images/large/orang-outan-large.jpg" alt="Orang-outan et son bébé">
+        <h2>Orang-outan</h2>
+        <p>
+          Le nom « orang-outan » vient du malais orang hutan, qui signifie littéralement « homme de la forêt ». Ce grand singe a élu domicile à la cime des arbres et parcourt inlassablement la canopée à la recherche de fruits, de feuilles et d’insectes.
+        </p>
+        <button class="gridLayout-button"><a href="https://www.wwf.fr/especes-prioritaires/orang-outan" target="_blank"><strong>En savoir plus</strong></a></button>
+      </div>
+      <div class="gridLayout-item">
+        <img src="images/large/gorille.jpg" alt="Gorille dans un arbre">
+        <h2>Gorille</h2>
+        <p>
+          Les gorilles sont les plus grands des singes et probablement les plus impressionnants. Pourtant, loin de l’image véhiculée par la littérature et le cinéma, ce sont des animaux pacifiques et timides. Ils sont aussi nos plus proches cousins après les chimpanzés et les bonobos.
+        </p>
+        <button class="gridLayout-button"><a href="https://www.wwf.fr/especes-prioritaires/gorilles" target="_blank"><strong>En savoir plus</strong></a></button>
+      </div>
     </section>
+
+    <h2>Grid Layout</h2>
+    <p class="columns--texte">CSS Grid Layout est un puissant système de mise en page disponible actuellement en CSS. Il s'agit d'un système bidimensionnel, ce qui signifie qu'il peut gérer à la fois les colonnes et les lignes, contrairement à flexbox qui est un système unidimensionnel. On travaille avec la "disposition de grille" (grid layout) en appliquant les règles CSS à la fois à un élément parent (qui devient le container de grille) et aux enfants de cet élément (qui deviennent des éléments de grille). <br>
+    Ici, chaque élément (image, titre, texte et bouton) est placé dans une case de la grille. Il serait également possible de placer un seul élément sur plusieurs parties d'une grille. Pour utiliser CSS Grid Layout, il faut tout d'abord définir le nombre et le comportement des lignes ("rows") et des colonnes ("columns").</p>
 
     <footer>
       <img src="images/medium/eleonore-sas.jpg" alt="photo Éléonore Sas">
       <ul>
-        <li><h3>Me contacter</h3></li>
+        <li><h4>Me contacter</h4></li>
         <li>Eléonore Test </li>
         <li>eleonore.test@gmail.com</li>
         <li>06.00.00.00.12</li>
@@ -61,7 +106,7 @@
         <li>PARIS</li>
       </ul>
 
-      <nav>
+      <nav class="second-menu">
         <ul>
           <li>
             <a href="index.html">Home</a>
@@ -76,7 +121,7 @@
           <li>
             <a href="cover.html">Cover</a>
           </li>
-          <a href="flexbox.html">Flexbox</a>
+            <a href="flexbox.html">Flexbox</a>
           <li>
             <a href="grid.html">Grid</a>
           </li>
