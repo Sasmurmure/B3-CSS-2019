@@ -46,3 +46,7 @@
 .gridLayout-button:hover {
   filter: brightness(75%);
 }
+
+.gridLayout--texte {
+  margin-top: 50px;
+}

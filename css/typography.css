@@ -78,12 +78,11 @@ strong {
 #main-menu{
   font-family: serif;
   font-weight: bold;
-  color:000000;
 }
 
 #main-menu nav:hover, a:visited, a:link, a:active {
   text-decoration: none;
-  color: #1F2429;
+  color: #4808c9;
 }
 
 #main-menu nav ul {
