@@ -1,16 +1,16 @@
-#flexbox {
+#flex-item--total {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.flex img {
+.flex-item img {
   margin: 4px;
   max-width: 400px;
   border-radius: 15px;
 }
 
-.flex p{
+.flex-item p{
   max-width: 400px;
   margin: 4px;
   columns: 3;

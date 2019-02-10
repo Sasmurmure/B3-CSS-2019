@@ -2,3 +2,8 @@
   display: flex;
   justify-content: center;
 }
+
+.picture-images--total img {
+  margin: 4vw 4vw;
+  border-radius: 15px;
+}

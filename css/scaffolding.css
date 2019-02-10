@@ -20,19 +20,21 @@
 }
 
 #main-menu nav ul li ul {
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:rgba(217, 215, 215, 0.7);
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: rgba(255, 255, 255, 0.9);
   padding: 5px;
   margin-bottom: 1.5px;
   line-height: 01.2;
+  border-radius: 15px;
 }
 
 #main-menu nav > ul li:hover ul{
   display: block;
 }
+
 
 #main-menu nav ul li ul li {
   display: block;
