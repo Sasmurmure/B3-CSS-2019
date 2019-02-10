@@ -1,40 +1,30 @@
-h2 {
-  text-align: center;
-}
-
-p {
-  text-align: center;
-}
-
-#section1 {
-  background-image: url("../images/section1.jpg");
+#cover--background-img {
+  background-image: url("../images/macaques-crabiers.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-width: 80vw;
-  min-height: 40vw;
+  min-height: 80vw;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
-#section1 h2 {
-  background-color: rgba(99, 22, 19, 0.6);
-  padding: 5vw;
+#cover--background-img--title {
+  margin-bottom: 10vw;
+  background-color: rgba(72, 8, 201, 0.5);
+  padding: 3vw;
 }
 
-#section1 p {
-  background-color: rgba(153, 76, 13, 0.6);
-  padding: 2vw;
-}
-
-#section2{
-  background-image: url("../images/orang-outan.jpg");
+#cover--fixed-img{
+  background-image: url("../images/orang-outan-5.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 50vw;
+  background-size: 90vw;
   height: 60vw;
   margin: 3vw 0vw;
+}
+.cover--texte {
+  text-align: center;
 }
