@@ -109,3 +109,9 @@ footer h4{
 .columns--texte {
   column-count: 3;
 }
+
+@media screen and (max-width : 500px){
+  .columns--texte {
+    column-count: 1;
+  }
+}
